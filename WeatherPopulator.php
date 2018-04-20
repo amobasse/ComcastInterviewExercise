@@ -30,7 +30,7 @@ class WeatherPopulator {
                 }
             } else {
                 $valHTML = self::dataValidation($val);
-                $htmlTable .= "<strong>{$valHTML}</strong>";
+                $htmlTable .= "{$valHTML}";
             }
 
             $htmlTable .= "</td></tr>";
